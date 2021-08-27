@@ -43,8 +43,6 @@ const App = (props) => {
       <p>Votes {points.join(' ')}</p>
       <p>Anecdote # {indexOfMaxValue}</p>
       <p>Anecdote # {anecdotes[indexOfMaxValue]}</p>
-
-
     </div>
   )
 }
